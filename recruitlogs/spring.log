@@ -1,0 +1,25 @@
+2020-06-12 12:13:30.870  INFO 11708 --- [main] c.d.recruit_back.RecruitBackApplication  : Starting RecruitBackApplication on DESKTOP-8SFUFNP with PID 11708 (D:\code_vue\springboot_vue\recruit_back\target\classes started by 青辰 in D:\code_vue\springboot_vue\recruit_back)
+2020-06-12 12:13:30.875  INFO 11708 --- [main] c.d.recruit_back.RecruitBackApplication  : No active profile set, falling back to default profiles: default
+2020-06-12 12:13:31.909  WARN 11708 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.demo.recruit_back.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-06-12 12:13:31.910  WARN 11708 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.demo.recruit_back]' package. Please check your configuration.
+2020-06-12 12:13:32.431  INFO 11708 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2020-06-12 12:13:32.445  INFO 11708 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-12 12:13:32.445  INFO 11708 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-12 12:13:32.447  INFO 11708 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-06-12 12:13:32.448  INFO 11708 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-12 12:13:32.448  INFO 11708 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-12 12:13:32.454  INFO 11708 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-06-12 12:13:32.599  INFO 11708 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-12 12:13:32.599  INFO 11708 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1655 ms
+2020-06-12 12:13:33.059  INFO 11708 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-12 12:13:33.206  INFO 11708 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-06-12 12:13:33.207  INFO 11708 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-06-12 12:13:33.208  INFO 11708 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-06-12 12:13:33.209  INFO 11708 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2020-06-12 12:13:33.391  INFO 11708 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+2020-06-12 12:13:33.405  INFO 11708 --- [main] c.d.recruit_back.RecruitBackApplication  : Started RecruitBackApplication in 3.307 seconds (JVM running for 5.07)
+2020-06-12 12:15:03.221  INFO 11708 --- [http-nio-8084-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-12 12:15:03.221  INFO 11708 --- [http-nio-8084-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-12 12:15:03.227  INFO 11708 --- [http-nio-8084-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-06-12 12:15:03.336  INFO 11708 --- [http-nio-8084-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-12 12:15:03.785  INFO 11708 --- [http-nio-8084-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
